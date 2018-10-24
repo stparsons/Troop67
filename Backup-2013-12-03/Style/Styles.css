@@ -1,0 +1,208 @@
+﻿/* CSS layout */
+html * {
+  padding:0;
+  margin:0;
+  border:0;
+}
+
+h1 {
+	font-size: 26px;
+	font-family:Georgia;
+	color: #7C87A3;
+	font-weight: normal;
+	text-decoration: underline;
+	font-variant: small-caps;
+	text-align: center;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+h2 {
+	font-size: 22px;
+	font-family:Georgia;
+	color: #7C87A3;
+	font-weight: normal;
+	text-decoration: underline;
+	text-align: center;
+	
+}
+h3 {
+	font-size: 18px;
+	font-family:Georgia;
+	color: #7C87A3;
+}
+
+
+body {
+	color: #7C87A3;
+	font-family: Comic Sans MS;
+	font-size:14px;
+	background:black;
+}
+
+#masthead {
+}
+
+#top_nav {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url('../Art/MainHeading.jpg');
+	height:378px
+	
+}
+
+#buttons {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 33px;
+	
+}
+
+#abuttonsHome{
+     display: block;
+     width: 120px;
+     height: 35px;
+     background: url('../Art/ButtonsHomeClick.png');
+}
+#abuttonsHome:hover {
+     background-image: url('../Art/ButtonsHomeHover.png');
+}
+#abuttonsHome:active {
+     background-image: url('../Art/ButtonsHomeClick.png');
+}
+
+
+
+#abuttonsEvents{
+     display: block;
+     width: 120px;
+     height: 35px;
+     background: url('../Art/ButtonsEventsClick.png');
+}
+#abuttonsEvents:hover {
+     background-image: url('../Art/ButtonsEventsHover.png');
+}
+#abuttonsEvents:active {
+     background-image: url('../Art/ButtonsEventsClick.png');
+}
+
+
+
+#abuttonsContact{
+     display: block;
+     width: 120px;
+     height: 35px;
+     background: url('../Art/ButtonsContactClick.png');
+}
+#abuttonsContact:hover {
+     background-image: url('../Art/ButtonsContactHover.png');
+}
+#abuttonsContact:active {
+     background-image: url('../Art/ButtonsContactClick.png');
+}
+
+
+
+#abuttonsPictures{
+     display: block;
+     width: 120px;
+     height: 35px;
+     background: url('../Art/ButtonsPicturesClick.png');
+}
+#abuttonsPictures:hover {
+     background-image: url('../Art/ButtonsPicturesHover.png');
+}
+#abuttonsPictures:active {
+     background-image: url('../Art/ButtonsPicturesClick.png');
+}
+
+
+
+
+#abuttonsLinks{
+     display: block;
+     width: 120px;
+     height: 35px;
+     background: url('../Art/ButtonsLinksClick.png');
+}
+#abuttonsLinks:hover {
+     background-image: url('../Art/ButtonsLinksHover.png');
+}
+#abuttonsLinks:active {
+     background-image: url('../Art/ButtonsLinksClick.png');
+}
+
+
+
+
+
+
+
+
+#container_all {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:black;
+
+}
+
+#container_top {
+	width: 800px;
+	height: 71px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url('../Art/BodyTop.jpg')
+
+}
+
+#container_body {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url('../Art/BodyMain.jpg')
+
+}
+
+#container_bottom {
+	width: 800px;
+	height: 98px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url('../Art/BodyBottom.jpg')
+
+}
+	#container_bottom  a {
+		color: #EAB00E;
+		text-decoration: none;
+		text-decoration:underline;
+	}
+
+#bottom {
+	width:800px;
+	height:104px;
+	background-image:url('../Art/Footer.png');
+	color: #EAB00E;
+	
+}
+
+	#bottom  a {
+		color: #EAB00E;
+		text-decoration: none;
+		text-decoration:underline;
+	}
+
+	#bottom  a:hover {
+		text-decoration: none;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+
+
+#footer {
+	clear: both;
+	height:100px;
+	
+}
